@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<main id="main">
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+  <head></head>
+    <title id="title">Bev Doolittle</title>
+    <div id="img-div">
+      <img id="image" src="https://www.bevdoolittle.net/art/16107.jpg" />
+      <div id="img-caption"><p id="img-caption">Christmas Day Give or Take a Week, Lithograph</p></div>
+    </div>
+  <head></head>
+  <body>
+    <p id="tribute-info">Bev Doolittle is an American artist, born and raised in California.<br>
+    <a id="tribute-link" href="https://www.bevdoolittle.net/" target="_blank">Her website</p>
+  </body>
+  </main>
+</html>
+
+
+CSS
+#image {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
