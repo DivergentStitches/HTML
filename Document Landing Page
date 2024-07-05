@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf=8"/>
+    <link rel="stylesheet" media="print" href="styles.css" />
+  </head>
+  <body>
+    <header id="header"><img id="header-img" src="https://sublimationforbagmaking.com/cdn/shop/files/6669dd65a85f517314685a6b_1719194115252_botTN.jpg?v=1719246274&width=713"
+    width="200"
+    height="200"/>
+    <nav id="nav-bar">
+      <ul>
+      <li><a href="#Products" class="nav-link">Products</a></li>
+      <li><a href="#Blog" class="nav-link">Blog</a></li>
+      <li><a href="#ContactUs" class="nav-link">Contact Us</a></li>
+      </ul>
+      </nav>
+    </header><br><br><br><br><br><br>
+    <div>
+      <div id="Products">Products<br>
+        <video id="video" src="https://youtu.be/y8Yv4pnO7qc"></video>
+        </div><br>
+      <div id="Blog">Blog</div>
+      <div id="ContactUs">Contact Us</div><br><br><br>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" placeholder="Enter your email" name="email"></input>
+          <input id="submit" type="Submit"></button>
+        </form>
+      </div>
+    </div>
+
+    </body>
+</html>
+
+
+CSS
+
+header {
+  position: fixed;
+  top: 0px;
+ }
+
+ @media screen and (min-width: 480px) {}
+
+ body {
+   display: flex;
+ }
